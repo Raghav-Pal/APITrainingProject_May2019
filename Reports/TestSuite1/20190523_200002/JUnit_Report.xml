@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite1" time="10" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="10" timestamp="2019-05-23 20:00:07" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/TestSuite1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\APITrainingProject\\Reports\\TestSuite1\\20190523_200002"/>
+            <property name="logFiles" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\APITrainingProject\\Reports\\TestSuite1\\20190523_200002\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+            <property name="hostAddress" value="172.20.128.1"/>
+            <property name="os" value="Windows Server 2016 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+        </properties>
+        <testcase name="Test Cases/TestForReqResponseChainingDemo" classname="Test Cases/TestForReqResponseChainingDemo" status="PASSED">
+            <system-out>2019-05-23 20:00:07 - [TEST_CASE][PASSED] - Test Cases/TestForReqResponseChainingDemo: Test Cases/TestForReqResponseChainingDemo&#xD;
+&#xD;
+2019-05-23 20:00:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/ListUsers")): Send request successfully&#xD;
+&#xD;
+2019-05-23 20:00:15 - [MESSAGE][INFO] - HAR: E:\Desktop\Projects\KatalonStudio\2019\APITrainingProject\Reports\TestSuite1\20190523_200002\requests\main\0.har&#xD;
+&#xD;
+2019-05-23 20:00:15 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - value = first_name: null&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - println("
+ Value is : " + value): null&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - USERNAME = value: null&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - println("
+ Value of USERNAME is : " + USERNAME): null&#xD;
+&#xD;
+2019-05-23 20:00:15 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("REST/UpdateUser")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-05-23 20:00:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-05-23 20:00:17 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-05-23 20:00:17 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-05-23 20:00:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Charles"): Verify element property value successfully&#xD;
+&#xD;
+2019-05-23 20:00:17 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-05-23 20:00:17 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-05-23 20:00:17 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-23 20:00:07 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-out>
+        <system-err>2019-05-23 20:00:07 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-err>
+    </testsuite>
+</testsuites>

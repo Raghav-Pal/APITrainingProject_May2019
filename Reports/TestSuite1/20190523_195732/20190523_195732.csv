@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2019-05-23 19:57:37,2019-05-23 19:57:47,9.892s,INCOMPLETE
+,,,,,,,
+Test Cases/TestForReqResponseChainingDemo,,,,2019-05-23 19:57:37,2019-05-23 19:57:47,9.552s,PASSED
+"response = sendRequest(findTestObject(""REST/ListUsers""))",,,,2019-05-23 19:57:38,2019-05-23 19:57:44,6.249s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-05-23 19:57:44,2019-05-23 19:57:44,0.070s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,,,2019-05-23 19:57:44,2019-05-23 19:57:44,0.024s,PASSED
+value = first_name,,,,2019-05-23 19:57:44,2019-05-23 19:57:44,0.006s,PASSED
+"println(""
+ Value is : "" + value)",,,,2019-05-23 19:57:44,2019-05-23 19:57:44,0.003s,PASSED
+USERNAME = value,,,,2019-05-23 19:57:44,2019-05-23 19:57:44,0.201s,PASSED
+"println(""
+ Value of USERNAME is : "" + USERNAME)",,,,2019-05-23 19:57:44,2019-05-23 19:57:44,0.012s,PASSED
+"sendRequestAndVerify(findTestObject(""REST/UpdateUser""))",,,,2019-05-23 19:57:44,2019-05-23 19:57:47,2.536s,PASSED
