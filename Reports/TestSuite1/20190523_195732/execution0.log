@@ -598,4 +598,175 @@
   <message>End Test Suite : Test Suites/TestSuite1</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252084</millis>
+  <sequence>4561</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>appiumVersion = 1.9.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.9.1</property>
+</record>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252192</millis>
+  <sequence>4562</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>deviceId = null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">null</property>
+</record>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252192</millis>
+  <sequence>4563</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>deviceName = Galaxy A7</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Galaxy A7</property>
+</record>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252192</millis>
+  <sequence>4564</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>deviceModel = null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">null</property>
+</record>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252192</millis>
+  <sequence>4565</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>deviceManufacturer = null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">null</property>
+</record>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252194</millis>
+  <sequence>4566</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-05-23T22:04:12</date>
+  <millis>1558629252194</millis>
+  <sequence>4567</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2893</thread>
+  <message>deviceOSVersion = 5.0.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">5.0.2</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:12</date>
+  <millis>1558629312097</millis>
+  <sequence>4569</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>appiumVersion = 1.9.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="appiumVersion">1.9.1</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:13</date>
+  <millis>1558629313068</millis>
+  <sequence>4570</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>deviceId = null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">null</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:13</date>
+  <millis>1558629313068</millis>
+  <sequence>4571</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>deviceName = G3 S</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">G3 S</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:13</date>
+  <millis>1558629313068</millis>
+  <sequence>4572</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>deviceModel = null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">null</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:13</date>
+  <millis>1558629313068</millis>
+  <sequence>4573</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>deviceManufacturer = null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">null</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:13</date>
+  <millis>1558629313068</millis>
+  <sequence>4574</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-05-23T22:05:13</date>
+  <millis>1558629313068</millis>
+  <sequence>4575</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2898</thread>
+  <message>deviceOSVersion = 4.4.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">4.4.2</property>
+</record>
 </log>
